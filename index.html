@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: lightblue;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button {
+            justify-content: space-between;
+        }
+
+        form {
+            margin-left: 800px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        label {
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form>
+
+            <label style="margin-right: 20px;" for="">First Name</label> <input type="text"> <br> <br>
+            <label style="margin-right: 21px;" for="">Last Name</label> <input type="text"> <br> <br>
+            <label style="margin-right: 19.5px;" for="">Nick Name</label> <input type="text"> <br> <br>
+            <label style="margin-right: 55px;" for="">e-mai</label> <input type="email"> <br> <br>
+            <label style="margin-right: 30px;" for="">Password</label> <input type="password"> <br> <br>
+            <label style="margin-right: 10px;" for="">Date of Birth</label> <input type="date"> <br> <br>
+
+
+            <div class="gender-options">
+                <label>Gender</label>
+                <label>
+                    <input style="margin-left: 2px;" type="radio" name="gender" value="male" required> Male
+                </label>
+                <label>
+                    <input style="margin-left: 2px;" type="radio" name="gender" value="female" required> Female
+                </label>
+                <label>
+                    <input style="margin-left: 2px;" type="radio" name="gender" value="other" required> Other
+                </label>
+            </div>
+            <br><br>
+            <label style="margin-right: 48px;" for="">Mobile</label> <input type="number"> <br> <br>
+
+            <div class="form-group">
+                <label style="margin-right: 14px;" for="address">Address</label>
+                <textarea style="margin-left: 30px;" name="Address" id="ad" rows="4"></textarea>
+            </div>
+            <button style="margin-right: 40px; margin-left: 120px;" type="submit">Submit</button><button
+                type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+
+</html>
